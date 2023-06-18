@@ -1,4 +1,4 @@
-# Malaria-Classification-Image
+# Malaria Classification Blood Sample Model
 
 **Made by Aksel E**
 
