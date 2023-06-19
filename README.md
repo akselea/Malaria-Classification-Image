@@ -2,8 +2,7 @@
 
 **Made by Aksel E**
 
-## Project Domain
-### Background
+## Background
 
 Malaria is one of the life-threatening disease caused by the Plasmodium parasite and transmitted through the bite of infected mosquitoes. It affects millions of people worldwide, particularly in tropical and subtropical regions. Here show of a map where approximately malaria transmission occurs around the world.
 
@@ -37,7 +36,7 @@ Image below shown example of random sample in each folder.
 </div>
 
 <div align= "center">
-  Image 2. Example of Random Sample in Each Folder in Malaria Blood Sample Dataset.
+  Image 2. Example of Random Sample in Each Folder in Malaria Blood Sample Dataset
 </div>
 
 ## Data Preparation
@@ -58,4 +57,34 @@ Using this `tf.keras.preprocessing.image.ImageDataGenerator()` function results 
 
 ## Modeling
 
-In this stage, the model will 
+Table below shown hyperparameter that used in `model.fit()` process:
+
+Table 1. Hyperparameter Value in `model.fit()` Process
+
+|   Hyperparameter   |                  Value                  |
+|:-------------------|:----------------------------------------|
+| `steps_per_epoch`  | Total Data in `train_generator` (24804) |
+| `epochs`           |                    15                   |
+| `batch_size`       |                    16                   |
+| `validation_steps` |  Total Data in `valid_generator` (2754) |
+
+Plot image below shown accuracy and loss value of the model.
+
+<div align= "center">
+  <img src="https://github.com/akselea/Malaria-Classification-Image/assets/116968275/f7ab7c71-db5b-459f-8187-4508e99cc46e">
+</div>
+
+<div align= "center">
+  Image 3. Malaria Blood Sample Model Accuracy Plot
+</div>
+
+<br>
+<br>
+
+<div align= "center">
+  <img src="https://github.com/akselea/Malaria-Classification-Image/assets/116968275/63f2ef60-4180-4087-96ee-6540bf298d3c">
+</div>
+
+<div align= "center">
+  Image 4. Malaria Blood Sample Model Loss Plot
+</div>
