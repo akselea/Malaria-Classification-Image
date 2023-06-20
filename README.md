@@ -41,7 +41,7 @@ Image below shown example of random sample in each folder.
 
 ## Data Preparation
 
-Blood samples from this dataset is processed by `tf.keras.preprocessing.image.ImageDataGenerator()` function. This function used to generate batches of tensor image data with real-time data augmentation.
+Blood samples from this dataset is processed by `tf.keras.preprocessing.image.ImageDataGenerator()` function. This function used to generate batches of tensor image data with real-time data augmentation to avoid model from overfitting.
 
 Here is step-to-step how blood samples data is constructed before it's used in modeling stage:
 
